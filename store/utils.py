@@ -53,7 +53,7 @@ def product_sales_pipeline(product_name, product_price):
         unit_amount = product_price,
         currency = 'inr'
     )
-    base_endpoint = 'http://localhost:8000'
+    base_endpoint = 'https://micro-ecom-web.onrender.com'
     success_url = f"{base_endpoint}/"
     cancel_url = f"{base_endpoint}/payments/cancelled/"
 
